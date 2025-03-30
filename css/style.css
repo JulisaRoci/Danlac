@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Titan+One&display=swap');
+
+body{
+    width: 100%;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.container{
+    background-color: #ffeef6;
+    font-size: 18px;
+}
+
+
+/* NAVBAR */
+
+.nav-link{
+    margin: 0 20px;
+    color: #454a4e;
+}
+
+.btn-outline-success{
+    border: 1px solid #ff95c9;
+    color: #ff95c9;
+}
+.btn-outline-success:hover{
+    border: 0;
+    background-color: #8d66df;
+}
+
+
+/* HTML */
+.fila{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fila-text{
+    width: 60%;
+}
+
+.img-inicio{
+    transform: rotate(10deg);
+}
+
+.btn-inicio{
+    border: 0;
+    background-color: #ff95c9;
+    padding: 8px 16px;
+    border-radius: 24px;
+    color: white;
+    margin-top: 16px;
+
+    cursor: pointer;
+    transition: 0.3s, color 0.3s;
+}
+
+
+/* JS */
+
+#productos{
+    padding-top: 62px;
+}
+ul{
+    /* background-color: #8d66df; */
+    list-style: none;
+}
+
+li{
+    width: 300px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    border: 6px solid white;
+    padding: 16px;
+    margin: 8px;
+
+}
+
+.center{
+    /* background-color: #ff95c9; */
+    height: 250px;
+}
+.center, .btn-center{
+    text-align: center;
+}
+
+.between{
+    /* background-color: #ff95c9; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    
+    font-family: 'Titan One', sans-serif;
+    letter-spacing: 2px;
+    color: #ff95c9;
+    /* font-weight: 700; */
+}
+.precio{
+    color: #ff95c9;
+}
+
+.btn-comprar{
+    width: 80%;
+    border: 0;
+    background-color: #ff95c9;
+    padding: 8px 16px;
+    border-radius: 24px;
+    color: white;
+    margin-top: 16px;
+
+    cursor: pointer;
+    transition: 0.3s, color 0.3s;
+}
+.btn-comprar:hover, .btn-inicio:hover{
+    background-color: #8d66df;
+}
+
+#un-producto{
+    margin: 52px 0;
+    background-color: white;
+}
+
+.between2{
+    /* background-color: #8d66df; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 64px 0;
+}
+
+.between2 img, .between2 p{
+    margin: 24px 12px;
+}
+
+.mantequilla{
+    transform: rotate(-10deg);
+}
+
+.rrss{
+    color: #fe96c7;
+}
+

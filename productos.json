@@ -1,0 +1,48 @@
+{
+    "productos": [
+        {
+            "nombre": "Yogurt frutado de fresa",
+            "precio": 10.99,
+            "stock": 100,
+            "categoría": "Lácteos",
+            "descripción": "Una breve descripción del producto.",
+            "imagen": "images/DAN1.png",
+            "video": "https://www.youtube.com/embed/MRi7QY8DygY?si=5vaA-2XUbadNb-bl"
+        },
+        {
+          "nombre": "Yogurt con aguaymanto",
+          "precio": 10.99,
+          "stock": 50,
+          "categoría": "Lácteos",
+          "descripción": "Otra breve descripción del producto.",
+          "imagen": "images/DAN2.png",
+          "video": "https://www.youtube.com/embed/MRi7QY8DygY?si=5vaA-2XUbadNb-bl"
+        },
+        {
+          "nombre": "Yogurt frutado de fresa",
+          "precio": 10.99,
+          "stock": 200,
+          "categoría": "Lácteos",
+          "descripción": "Una tercera breve descripción del producto.",
+          "imagen": "images/DAN3.png",
+          "video": "https://www.youtube.com/embed/MRi7QY8DygY?si=5vaA-2XUbadNb-bl"
+        },
+        {
+          "nombre": "Yogurt Frutos del Bosque",
+          "precio": 10.99,
+          "stock": 200,
+          "categoría": "Lácteos",
+          "descripción": "Una tercera breve descripción del producto.",
+          "imagen": "images/DAN4.png",
+          "video": "https://www.youtube.com/embed/MRi7QY8DygY?si=5vaA-2XUbadNb-bl"
+        }
+    ],
+
+    "productoSolo":[
+      {
+        "nombre": "Mantequilla con Sal",
+        "descripción": "Contiene 180 gramos",
+        "imagen": "images/DAN5.png"
+      }
+    ]
+}
